@@ -7,13 +7,11 @@
 </p>
 
 ## About
-POLF can be used to quickly push a file with the content copied from the clipboard to a remote repository.
+**POLF** can be used to quickly push a file with the content copied from the clipboard to a remote repository.
 
-POLF was created after I started to do [codewars](https://www.codewars.com/) to improve my coding skills. Code challenges are sorted from the lowest **``8 kyu``** to the highest **``1 kyu``** difficulties. Most of the **``8 kyu``** challenges can be solved in one line.
+**POLF** was created after I started to do [codewars](https://www.codewars.com/) to improve my coding skills. Code challenges are sorted from the lowest *8 kyu* to the highest *1 kyu* difficulties. Most of the *8 kyu* challenges can be solved in one line.
 
-Create a new file, copy the solution, paste the solution, stage the file, commit, include the message, and push is too many steps to do for a file containing only one line.
-
-Using **POLF** the steps are reduce to two steps, create a new file and include the commit message.
+Create a new file, copy the solution, paste the solution, stage the file, commit, include the message, and push is too many steps to do for a file containing only one line. Using **POLF** the steps are reduce to two steps, create a new file and include the commit message.
 
 ## Setup
 1. Make sure Git is already setup and configured
