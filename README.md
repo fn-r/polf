@@ -7,7 +7,6 @@
 </p>
 
 ## About
----
 POLF can be used to quickly push a file with the content copied from the clipboard to a remote repository.
 
 POLF was created after I started to do [codewars](https://www.codewars.com/) to improve my coding skills. Code challenges are sorted from the lowest **``8 kyu``** to the highest **``1 kyu``** difficulties. Most of the **``8 kyu``** challenges can be solved in one line.
@@ -17,7 +16,6 @@ Create a new file, copy the solution, paste the solution, stage the file, commit
 Using **POLF** the steps are reduce to two steps, create a new file and include the commit message.
 
 ## Setup
----
 1. Make sure Git is already setup and configured
     ```console
     $ git config --global user.name "Your Name"
@@ -49,7 +47,6 @@ Using **POLF** the steps are reduce to two steps, create a new file and include 
     ```
 
 ## How To
----
 1. Copy content
 1. Run **POLF** in the terminal (make sure you are in your local repo) using the following command:
     ```console
