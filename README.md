@@ -2,16 +2,44 @@
 <p align="center">
   • 
   <a href="#about">About</a> •
+  <a href="#used-on">Used On</a> •
+  <a href="#techn-used">Tech Used</a> •
+  <a href="#optimizations">Optimizations</a> •
+  <a href="#lesson-learned">Lesson Learned</a> •
   <a href="#setup">Setup</a> •
   <a href="#how-to">How To</a> •
 </p>
 
 ## About
-**POLF** can be used to quickly push a file with the content copied from the clipboard to a remote repository.
+POLF can be used to quickly push a file with the content copied from the clipboard to a remote repository.
 
-**POLF** was created after I started to do [codewars](https://www.codewars.com/) to improve my coding skills. Code challenges are sorted from the lowest *8 kyu* to the highest *1 kyu* difficulties. Most of the *8 kyu* challenges can be solved in one line.
+POLF was created after I started to do [codewars](https://www.codewars.com/) to improve my coding skills. Code challenges are sorted from the lowest **``8 kyu``** to the highest **``1 kyu``** difficulties. Most of the **``8 kyu``** challenges can be solved in one line.
 
-Create a new file, copy the solution, paste the solution, stage the file, commit, include the message, and push is too many steps to do for a file containing only one line. Using **POLF** the steps are reduce to two steps, create a new file and include the commit message.
+Create a new file, copy the solution, paste the solution, stage the file, commit, include the message, and push is too many steps to do for a file containing only one line.
+
+Using **POLF** the steps are reduce to two steps, create a new file and include the commit message.
+
+<img src="https://github.com/fn-r/portfolio/blob/main/images/gif/polf.gif" width="100%" alt="POLF"/>
+
+## Used On
+- **[My Coding Challenges Repository](https://github.com/fn-r/coding-questions)**
+
+## Tech Used: ![PYTHON BADGE](https://img.shields.io/static/v1?label=|&message=Python&color=285f65&style=plastic&logo=python) 
+My learning for this project is by purposely did not used GitHub API and other libraries that require installation as I have made this project for those that just started to code.
+
+## Optimizations
+I may further improve this project by utilizing the new Python standard library, **[ConfigParser](https://docs.python.org/3/library/configparser.html)**. This way it would prompt user for the local path only during setup. In order to change this path, however, I would also need to add a menu similar to this:
+```console
+----- Main Menu -----
+1. Push to Remote Repo
+2. Edit Local Path
+Enter your choice: _
+```
+
+## Lesson Learned
+- subprocess:
+    ``subprocess`` is used to replaced Python deprecated ``os`` module. The ``os`` module is [susceptibility to shell injection](https://hackernoon.com/calling-shell-commands-from-python-ossystem-vs-subprocess-mc253z4f), so it is best to avoid using it.
+- It's risky to use deprecated methods, make sure to check Python documentation to check for the modern approach.
 
 ## Setup
 1. Make sure Git is already setup and configured
