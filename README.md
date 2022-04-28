@@ -25,7 +25,7 @@ Using **POLF** the steps are reduce to two steps, create a new file and include 
 - **[My Coding Challenges Repository](https://github.com/fn-r/coding-questions)**
 
 ## Tech Used: ![PYTHON BADGE](https://img.shields.io/static/v1?label=|&message=Python&color=285f65&style=plastic&logo=python) 
-My learning for this project is by purposely did not used GitHub API and other libraries that require installation as I have made this project for those that just started to code.
+My learning for this project is by purposely not using GitHub API and other libraries that require installation as I have made this project for those that just started to code.
 
 ## Optimizations
 I may further improve this project by utilizing the new Python standard library, **[ConfigParser](https://docs.python.org/3/library/configparser.html)**. This way it would prompt user for the local path only during setup. In order to change this path, however, I would also need to add a menu similar to this:
