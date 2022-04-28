@@ -3,7 +3,7 @@
   • 
   <a href="#about">About</a> •
   <a href="#used-on">Used On</a> •
-  <a href="#techn-used">Tech Used</a> •
+  <a href="#tech-used">Tech Used</a> •
   <a href="#optimizations">Optimizations</a> •
   <a href="#lesson-learned">Lesson Learned</a> •
   <a href="#setup">Setup</a> •
