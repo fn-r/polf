@@ -3,7 +3,7 @@
   • 
   <a href="#about">About</a> •
   <a href="#used-on">Used On</a> •
-  <a href="#tech-used">Tech Used</a> •
+  <a href="#technology-stack">Technology Stack</a> •
   <a href="#optimizations">Optimizations</a> •
   <a href="#lesson-learned">Lesson Learned</a> •
   <a href="#setup">Setup</a> •
@@ -24,7 +24,9 @@ Using **POLF** the steps are reduce to two steps, create a new file and include 
 ## Used On
 - **[My Coding Challenges Repository](https://github.com/fn-r/coding-questions)**
 
-## Tech Used: ![PYTHON BADGE](https://img.shields.io/static/v1?label=|&message=Python&color=285f65&style=plastic&logo=python) 
+## Technology Stack
+![PYTHON BADGE](https://custom-icon-badges.herokuapp.com/badge/-python-A5FFCE?style=for-the-badge&logo=python&logoColor=A5FFCE&labelColor=000000)
+
 My learning for this project is by purposely not using GitHub API and other libraries that require installation as I have made this project for those that just started to code.
 
 ## Optimizations
@@ -40,6 +42,7 @@ Enter your choice: _
 - subprocess:
     ``subprocess`` is used to replaced Python deprecated ``os`` module. The ``os`` module is [susceptibility to shell injection](https://hackernoon.com/calling-shell-commands-from-python-ossystem-vs-subprocess-mc253z4f), so it is best to avoid using it.
 - It's risky to use deprecated methods, make sure to check Python documentation to check for the modern approach.
+- Make sure to include error checking. Some special characters are not allowed as the file name.
 
 ## Setup
 1. Make sure Git is already setup and configured
