@@ -38,7 +38,7 @@ def create_file():
     print('')
 
     file_name = input('File Name: ')
-    if (invalid_file_name.find(file_name)):
+    if any (c in invalid_file_name for c in file_name):
         print(f"A file name can't contain any of the following characters: {', '.join(invalid_file_name)}")
         print('')
         create_file()
